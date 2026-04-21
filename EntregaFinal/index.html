@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Entrega Final TP1 - Análisis de Gastos</title>
+    <style>
+        body { font-family: sans-serif; max-width: 900px; margin: 40px auto; padding: 20px; line-height: 1.6; color: #333; }
+        h1, h2 { border-bottom: 2px solid #eee; padding-bottom: 10px; color: #2c3e50; }
+        .grafico { margin: 30px 0; width: 100%; background: #f9f9f9; padding: 10px; border-radius: 8px; }
+        .descripcion { margin-bottom: 50px; font-style: italic; color: #666; }
+    </style>
+</head>
+<body>
+
+    <h1>Entrega Final TP1</h1>
+
+    <h2>1. Distribución General </h2>
+    <div class="grafico">
+        <iframe title="Gastos por Categoría" aria-label="Donut Chart" id="datawrapper-chart-cV3Al" src="https://datawrapper.dwcdn.net/cV3Al/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="557"></iframe>
+    </div>
+    <p class="descripcion">Vista general de la proporción de gastos por categoría principal.</p>
+
+    <h2>2. Hábitos Diarios </h2>
+    <div class="grafico">
+        <div class="flourish-embed flourish-chart" data-src="visualisation/28167857">
+            <script src="https://public.flourish.studio/resources/embed.js"></script>
+        </div>
+    </div>
+    <p class="descripcion">Heatmap que muestra la intensidad de gasto por día del mes.</p>
+
+    <h2>3. Principales Destinatarios </h2>
+    <div class="grafico">
+        <div class='tableauPlaceholder' id='viz1775229616246' style='position: relative'><noscript><a href='#'><img alt='A quien más le transfiero es Ignacio ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Destinatariosdegastos&#47;Hoja1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Destinatariosdegastos&#47;Hoja1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;De&#47;Destinatariosdegastos&#47;Hoja1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='es-ES' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1775229616246');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <p class="descripcion">Detalle de las personas o servicios que recibieron mayor cantidad de transferencias.</p>
+
+    <h2>4. Análisis Trimestral Interactivo </h2>
+    <div class="grafico">
+        <iframe title="Distribución de Gastos por mes en categorías" width="100%" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNWZiYTM2ZDUtYjNiMy00YTQ3LThhMzQtYzYyOWMxMDU0MjIyIiwidCI6ImExZjUwYTk3LTIxYzAtNDlhNy1hOWQ0LWYyNDRlYmI0MmRhNyIsImMiOjR9" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+    <p class="descripcion">Dashboard interactivo para filtrar gastos por mes y ver la composición detallada en el Treemap.</p>
+
+</body>
+</html>
